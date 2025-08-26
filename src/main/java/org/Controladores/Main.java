@@ -9,8 +9,8 @@ public class Main {
         manager.addNumero(1);
         manager.addNumero(2);
         manager.addNumero(3);
-        int[] numeros1 = {1, 2, 3, 4, 5};
-        int resultado1 = Manager.sumarElementos(numeros1);
-        System.out.println("Suma del array [1,2,3,4,5]: " + resultado1);
+        manager.addNumero(4);
+        //We print the result of the sum
+        System.out.println("La suma es: " + manager.getSuma());
     }
 }

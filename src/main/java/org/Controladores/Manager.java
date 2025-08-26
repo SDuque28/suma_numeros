@@ -14,12 +14,12 @@ public class Manager {
         this.lista1.add(numero);
     }
 
-    public static int sumarElementos(int[] array) {
-        int suma = 0;
-        for (int j : array) {
-            suma += j;
+    public int getSuma() {
+        int total = 0;
+        for (int j : lista1) {
+            total += j;
         }
-        return suma;
+        return total;
     }
 
     public List<Integer> getLista1() {
