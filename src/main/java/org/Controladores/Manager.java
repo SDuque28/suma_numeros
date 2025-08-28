@@ -15,11 +15,7 @@ public class Manager {
     }
 
     public int getSuma() {
-        int total = 0;
-        for (int j : lista1) {
-            total += j;
-        }
-        return total;
+        return this.lista1.stream().mapToInt(Integer::intValue).sum();
     }
 
     public List<Integer> getLista1() {
